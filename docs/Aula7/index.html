@@ -9,14 +9,14 @@
 <body>
     <div>
         <div>
-            <h1>Cadastro de pizza</h1>
-            <h4>Defina a receita da sua pizza</h4>
+            <h1 class="textMiddle">Cadastro de pizza</h1>
+            <h4 class="textMiddle">Defina a receita da sua pizza</h4>
         </div>
         <div>
             <form>
                 <div>
                     <label for="nome">Nome da pizza</label>
-                    <input name="none" type="text">
+                    <input name="none" type="text" required>
                 </div>
                 <div>
                     <label for="expessura">Expessura da Massa</label>
@@ -39,13 +39,53 @@
 
                 </div>
                 <div>
-                    <h4>Pode ter bordarechada?</h4>
+                    <h4>Pode ter borda rechada?</h4>
 
                     <input name="borda" type="radio" value="S">
                     <label for="borda">Sim</label>
 
                     <input name="borda" type="radio" value="N">
                     <label for="borda">Nao</label>
+                </div>
+                <div>
+                    <h4>Ingredientes</h4>
+                    <p>
+                    <input type="text" placeholder="Nome do ingrediente">
+                    <label for="qtd">Quantidade</label>
+                    <input  name="qtd" type="number">
+                    gr
+                    </p>
+                    <p>
+                        <input type="text" placeholder="Nome do ingrediente">
+                        <label for="qtd2">Quantidade</label>
+                        <input type="number" name="qtd2"> gr
+                    </p>
+                    <p>
+                        <input type="text" placeholder="Nome do ingrediente">
+                        <label for="qtd3">Quantidade</label>
+                        <input  name="qtd3" type="number">
+                        gr
+                        </p>
+                            <p>
+                            <input type="text" placeholder="Nome do ingrediente">
+                            <label for="qtd4">Quantidade</label>
+                            <input  name="qtd4" type="number">
+                            gr
+                            </p>
+                </div>
+                <div>
+                    <h4>Tamanhos disponiveis</h4>
+                    <input name="p" type="checkbox">
+                    <label for="p">Pequena</label>
+                    <input name="m" type="checkbox">
+                    <label for="m">Média</label>
+                    <input name="g" type="checkbox">
+                    <label for="g">Grande</label>
+                    <input name="xg" type="checkbox">
+                    <label for="xg">Big</label>
+                </div>
+                <div>
+                    <input type="submit" value="Salvar">
                 </div>
             </form>
         </div>

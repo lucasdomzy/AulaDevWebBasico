@@ -1,4 +1,32 @@
 body{
-background-color: #777;
+background-color: #ff2d25;
 font-family: Arial, Helvetica, sans-serif;
+}
+.textMiddle{
+    text-align: center;
+}
+form{
+background-color: rgb(255, 166, 50);
+padding: 3%;
+padding-left: 10%;
+margin-right: 16%;
+margin-left: 16%;
+border-radius: 0.3em;
+background-image: url(https://th.bing.com/th/id/OIP.978esA4zErFVKTvfrefWBAHaHa?pid=ImgDet&rs=1);
+}
+input[type=text]{
+    width: 40%;
+
+}
+input[type=submit]{
+    margin-top: 2%;
+    width: 20%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    background-color: #66ff66;
+}
+input{
+    border-radius: 0.3em;
+    padding: 1%;
 }
